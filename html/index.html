@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>API Data Display</title>
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+  <h1>API Data Display</h1>
+
+  <div id="counter-sort">
+    <div id="counters">
+      <h2>Base Experience Counter</h2>
+      <p>This counts the number of pokemon present <br>within different base experience levels</p>
+      <div id="lowCounter"></div>
+      <div id="mediumCounter"></div>
+      <div id="highCounter"></div>
+    </div>
+  </div>
+
+  <button id="sortButton">Toggle Sort</button>
+  <button id="toggleButton">Toggle Containers</button>
+  
+  <div class="container">
+    <div id="collectionContainer" class="left-column show-container">
+      <h2>Collection</h2>
+      <div id="collection" class="collection"></div>
+    </div>
+
+    <div id="favoritesContainer" class="right-column">
+      <h2>Favorites</h2>
+      <div id="favorites" class="favorites"></div>
+    </div>
+  </div>
+
+  <script src="../javaScript/script.js"></script>
+</body>
+</html>
